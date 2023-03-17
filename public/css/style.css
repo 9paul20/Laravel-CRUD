@@ -1,3 +1,9 @@
+/* Style Dashboard */
+.v-list-item--active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Animation VueJS */
 .slide-fade-enter-active {
     transition: all 0.4s ease;
 }

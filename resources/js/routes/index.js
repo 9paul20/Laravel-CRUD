@@ -6,16 +6,18 @@ export const routes = [
             import(/* webpackChunkName: "about" */ "../views/index.vue"),
     },
     {
-        path: "/example",
-        name: "Example",
-        component: () =>
-            import(/* webpackChunkName: "about" */ "../views/ExampleGPT.vue"),
-    },
-    {
         path: "/about",
         name: "About",
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+    },
+    {
+        path: "/dashboard",
+        name: "Dashboard",
+        component: () =>
+            import(
+                /* webpackChunkName: "about" */ "../views/DashboardView.vue"
+            ),
     },
     {
         path: "/table",
@@ -23,8 +25,9 @@ export const routes = [
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/TableView.vue"),
     },
-    // {
-    //     path: "*",
-    //     component: notFound,
-    // },
+    {
+        path: "*",
+        component: () =>
+            import(/* webpackChunkName: "about" */ "../views/404View.vue"),
+    },
 ];

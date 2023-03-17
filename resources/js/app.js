@@ -39,10 +39,10 @@ const router = new VueRouter({
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component(
-    "example-component",
-    require("./components/ExampleComponent.vue").default
-);
+// Vue.component(
+//     "example-component",
+//     require("./components/ExampleComponent.vue").default
+// );
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -54,4 +54,27 @@ const app = new Vue({
     el: "#app",
     router,
     vuetify: new Vuetify(),
+    data() {
+        return {
+            drawer: false,
+            mini: false,
+            items: [
+                {
+                    icon: "mdi-home",
+                    title: "Inicio",
+                    route: "/",
+                },
+                {
+                    icon: "mdi-table",
+                    title: "Tabla",
+                    route: "/table",
+                },
+                {
+                    icon: "mdi-account-group",
+                    title: "Users",
+                    route: "/users",
+                },
+            ],
+        };
+    },
 });
