@@ -1,5 +1,8 @@
 <template>
-    <h2>Estamos en Index</h2>
+    <div>
+        <h2>Estamos en Index</h2>
+        <example-item></example-item>
+    </div>
 </template>
 
 <script>

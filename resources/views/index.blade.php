@@ -36,7 +36,8 @@
     <link rel="stylesheet" href="{{ url('/css/style.css') }}">
 
     <!-- Enlaces a fuentes de Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
 
     <!-- Scripts Iniciales de Font Awesome -->
     <!--<script src="https://kit.fontawesome.com/1234567890.js" crossorigin="anonymous"></script>

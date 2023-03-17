@@ -3,10 +3,11 @@ window.Vue = require("vue");
 
 import Vue from "vue";
 import VueRouter from "vue-router";
+import Vuetify from 'vuetify';
 
 import { routes } from "./routes";
 
-Vue.use(VueRouter);
+Vue.use(VueRouter, Vuetify);
 
 const router = new VueRouter({
     routes,
@@ -25,5 +26,6 @@ Vue.component(
 
 const app = new Vue({
     el: "#app",
-    router: router,
+    router,
+    vuetify: new Vuetify(),
 });

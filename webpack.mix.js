@@ -16,7 +16,7 @@ mix.js("resources/js/app.js", "public/js")
     .sass("resources/sass/app.scss", "public/css")
     .version()
     .browserSync({
-        proxy: "http://Laravel-CRUD.test",
+        proxy: "http://laravel-crud.test",
         browser: "Brave",
     })
     .disableNotifications();

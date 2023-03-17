@@ -4,7 +4,7 @@ export const routes = [
     {
         path: "/",
         name: "Index",
-        component: Index,
+        component: () => import(/* webpackChunkName: "about" */ '../views/index.vue'),
     },
     // {
     //     path: "*",
