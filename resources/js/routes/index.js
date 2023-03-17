@@ -23,12 +23,6 @@ export const routes = [
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/TableView.vue"),
     },
-    {
-        path: "/template",
-        name: "Template",
-        component: () =>
-            import(/* webpackChunkName: "about" */ "../views/TemplateView.vue"),
-    },
     // {
     //     path: "*",
     //     component: notFound,

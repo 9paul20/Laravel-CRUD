@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>Estamos en Index</h2>
-        <example-item></example-item>
+        <example-component></example-component>
     </div>
 </template>
 
