@@ -1,19 +1,26 @@
 require("./bootstrap");
 window.Vue = require("vue");
 
+import Axios from "axios";
 import Vue from "vue";
+import VueAxios from "vue-axios";
 import VueRouter from "vue-router";
-import Vuetify from 'vuetify';
+Vue.use(VueRouter);
+import Vuetify from "vuetify";
+
+import "vuetify/dist/vuetify.min.css";
+Vue.use(Vuetify);
 
 import { routes } from "./routes";
 
-Vue.use(VueRouter, Vuetify);
+// Vue.use(VueRouter, Vuetify);
+// Vue.use(Axios, VueAxios);
 
 const router = new VueRouter({
     routes,
     // linkExactActiveClass: "active",
     // linkActiveClass: "active-route",
-    mode: "history",
+    // mode: "history",
     scrollBehavior(to, from, savedPosition) {
         return { x: 0, y: 0 };
     },

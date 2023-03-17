@@ -6,7 +6,7 @@
                     <div class="card-header">Example Component with Bootstrap 4</div>
 
                     <div class="card-body">
-                        I'm an example component.
+                        I'm an example component of Bootstrap4.
                     </div>
                 </div>
             </div>

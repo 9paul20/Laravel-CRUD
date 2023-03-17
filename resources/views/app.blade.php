@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-5z5g5RPSdYd0rVl5eLy8P6hv+/L6vN1hQWNx6dPyK/zy9AgvgeSQh6ERfw0FpAcC" crossorigin="anonymous">
         <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="{{ url('/css/style.css') }}">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
     <!-- Enlaces a fuentes de Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
@@ -56,8 +57,6 @@
             </ul>
         </nav> --}}
     </header>
-
-    <h1>Hello</h1>
 
     <div id="app">
         <div class="container">
