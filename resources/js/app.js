@@ -8,12 +8,15 @@ require("./bootstrap");
 
 window.Vue = require("vue");
 
+import Axios from 'axios';
 import Vue from "vue";
+import VueAxios from "vue-axios";
 import VueRouter from "vue-router";
 import Vuetify from "vuetify";
 
 import "vuetify/dist/vuetify.min.css";
 
+Vue.use(VueAxios, Axios)
 Vue.use(VueRouter);
 Vue.use(Vuetify);
 
@@ -57,24 +60,7 @@ const app = new Vue({
     data() {
         return {
             drawer: false,
-            mini: false,
-            items: [
-                {
-                    icon: "mdi-home",
-                    title: "Inicio",
-                    route: "/",
-                },
-                {
-                    icon: "mdi-table",
-                    title: "Tabla",
-                    route: "/table",
-                },
-                {
-                    icon: "mdi-account-group",
-                    title: "Users",
-                    route: "/users",
-                },
-            ],
+            mini: false
         };
     },
 });

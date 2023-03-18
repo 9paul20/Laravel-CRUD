@@ -1,13 +1,12 @@
 <template>
-    <v-data-table :headers="headers" :items="desserts" :search="search" class="elevation-1">
-        <template #item.calories="{ value }">
-            {{ value.toLocaleString() }}
-        </template>
-        <template #item.actions="{ item }">
-            <v-icon small class="mr-2" @click="editItem(item)">mdi-pencil</v-icon>
-            <v-icon small @click="deleteItem(item)">mdi-delete</v-icon>
-        </template>
-    </v-data-table>
+    <v-container>
+        <v-data-table :headers="headers" :items="desserts" class="elevation-1">
+            <template v-slot:item.calories="{ item }">
+                <v-progress-linear :value="item.calories / item.protein" color="success"></v-progress-linear>
+                <div>{{ item.calories }}</div>
+            </template>
+        </v-data-table>
+    </v-container>
 </template>
 
 <script>
@@ -20,7 +19,6 @@ export default {
                 { text: 'Fat (g)', value: 'fat' },
                 { text: 'Carbs (g)', value: 'carbs' },
                 { text: 'Protein (g)', value: 'protein' },
-                { text: 'Actions', value: 'actions' },
             ],
             desserts: [
                 {
@@ -41,20 +39,60 @@ export default {
                     name: 'Eclair',
                     calories: 262,
                     fat: 16.0,
-                    carbs: 24,
+                    carbs: 23,
                     protein: 6.0,
                 },
+                {
+                    name: 'Cupcake',
+                    calories: 305,
+                    fat: 3.7,
+                    carbs: 67,
+                    protein: 4.3,
+                },
+                {
+                    name: 'Gingerbread',
+                    calories: 356,
+                    fat: 16.0,
+                    carbs: 49,
+                    protein: 3.9,
+                },
+                {
+                    name: 'Jelly bean',
+                    calories: 375,
+                    fat: 0.0,
+                    carbs: 94,
+                    protein: 0.0,
+                },
+                {
+                    name: 'Lollipop',
+                    calories: 392,
+                    fat: 0.2,
+                    carbs: 98,
+                    protein: 0,
+                },
+                {
+                    name: 'Honeycomb',
+                    calories: 408,
+                    fat: 3.2,
+                    carbs: 87,
+                    protein: 6.5,
+                },
+                {
+                    name: 'Donut',
+                    calories: 452,
+                    fat: 25.0,
+                    carbs: 51,
+                    protein: 4.9,
+                },
+                {
+                    name: 'KitKat',
+                    calories: 518,
+                    fat: 26.0,
+                    carbs: 65,
+                    protein: 7,
+                },
             ],
-            search: '',
-        };
+        }
     },
-    methods: {
-        editItem(item) {
-            // handle edit action
-        },
-        deleteItem(item) {
-            // handle delete action
-        },
-    },
-};
+}
 </script>

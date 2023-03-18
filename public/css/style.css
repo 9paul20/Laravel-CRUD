@@ -13,10 +13,43 @@
 }
 
 .slide-fade-enter,
-.slide-fade-leave-to
-
-/* .slide-fade-leave-active below version 2.1.8 */
-    {
+.slide-fade-leave-to {
     transform: translateX(10px);
     opacity: 0;
+}
+
+/* Backgrund Color de la App */
+#app {
+    background-color: #e6f4ea;
+}
+
+/* Estilos para error 403 */
+.error-card {
+    max-width: 500px;
+    margin-top: 100px;
+    border: 2px solid #b2df8a;
+    background-color: #f0f8e5;
+}
+
+.error-title {
+    background-color: #b2df8a;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.error-message {
+    font-size: 18px;
+    padding: 16px;
+}
+
+/* Estilos para el contenido principal cuando la navegación está expandida */
+.drawer-expanded {
+    margin-left: -240px;
+}
+
+/* Estilos para el contenido principal cuando la navegación está contraída */
+.drawer-collapsed {
+    margin-left: 72px;
 }
