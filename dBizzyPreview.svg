@@ -1,0 +1,657 @@
+<svg width="628" height="738" viewBox="0 0 471 553.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(34.85313076987005,451.0189707713618) scale(0.35355339059327395)">
+<title>G</title>
+<polygon fill="transparent" stroke="transparent" points="-4,4 -4,-1185 1044,-1185 1044,4 -4,4"></polygon>
+<!-- t_clientes -->
+<g id="node1" class="node" style="opacity: 1;">
+<title>t_clientes</title>
+<polygon fill="#232d95" stroke="transparent" points="527,-1145 527,-1163 754,-1163 754,-1145 527,-1145"></polygon>
+<polygon fill="none" stroke="white" points="527,-1145 527,-1163 754,-1163 754,-1145 527,-1145"></polygon>
+<text text-anchor="start" x="530" y="-1152" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_clientes</text>
+<polygon fill="#404040" stroke="transparent" points="527,-1127 527,-1145 754,-1145 754,-1127 527,-1127"></polygon>
+<polygon fill="none" stroke="white" points="527,-1127 527,-1145 754,-1145 754,-1127 527,-1127"></polygon>
+<text text-anchor="start" x="530" y="-1134" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="545.28" y="-1134" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="552.28" y="-1134" font-family="opensans" font-size="10.00" fill="white"> clvCliente INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="527,-1109 527,-1127 754,-1127 754,-1109 527,-1109"></polygon>
+<polygon fill="none" stroke="white" points="527,-1109 527,-1127 754,-1127 754,-1109 527,-1109"></polygon>
+<text text-anchor="start" x="530" y="-1115" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nombreCliente VARCHAR(50) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="527,-1091 527,-1109 754,-1109 754,-1091 527,-1091"></polygon>
+<polygon fill="none" stroke="white" points="527,-1091 527,-1109 754,-1109 754,-1091 527,-1091"></polygon>
+<text text-anchor="start" x="530" y="-1097" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;apePaternoCliente VARCHAR(50) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="527,-1073 527,-1091 754,-1091 754,-1073 527,-1073"></polygon>
+<polygon fill="none" stroke="white" points="527,-1073 527,-1091 754,-1091 754,-1073 527,-1073"></polygon>
+<text text-anchor="start" x="529.56" y="-1079" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;apeMaternoCliente VARCHAR(50) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="527,-1055 527,-1073 754,-1073 754,-1055 527,-1055"></polygon>
+<polygon fill="none" stroke="white" points="527,-1055 527,-1073 754,-1073 754,-1055 527,-1055"></polygon>
+<text text-anchor="start" x="530" y="-1061" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;email VARCHAR(70) UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="527,-1037 527,-1055 754,-1055 754,-1037 527,-1037"></polygon>
+<polygon fill="none" stroke="white" points="527,-1037 527,-1055 754,-1055 754,-1037 527,-1037"></polygon>
+<text text-anchor="start" x="530" y="-1043" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;domicilio VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="527,-1019 527,-1037 754,-1037 754,-1019 527,-1019"></polygon>
+<polygon fill="none" stroke="white" points="527,-1019 527,-1037 754,-1037 754,-1019 527,-1019"></polygon>
+<text text-anchor="start" x="530" y="-1025" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;telefono VARCHAR(20) UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="527,-1001 527,-1019 754,-1019 754,-1001 527,-1001"></polygon>
+<polygon fill="none" stroke="white" points="527,-1001 527,-1019 754,-1019 754,-1001 527,-1001"></polygon>
+<text text-anchor="start" x="530" y="-1007" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;celular VARCHAR(20) UNIQUE NOT NULL</text>
+</g>
+<!-- t_disponibilidad -->
+<g id="node2" class="node" style="opacity: 1;">
+<title>t_disponibilidad</title>
+<polygon fill="#232d95" stroke="transparent" points="801.5,-801 801.5,-819 1040.5,-819 1040.5,-801 801.5,-801"></polygon>
+<polygon fill="none" stroke="white" points="801.5,-801 801.5,-819 1040.5,-819 1040.5,-801 801.5,-801"></polygon>
+<text text-anchor="start" x="804.5" y="-808" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_disponibilidad</text>
+<polygon fill="#404040" stroke="transparent" points="801.5,-783 801.5,-801 1040.5,-801 1040.5,-783 801.5,-783"></polygon>
+<polygon fill="none" stroke="white" points="801.5,-783 801.5,-801 1040.5,-801 1040.5,-783 801.5,-783"></polygon>
+<text text-anchor="start" x="804.47" y="-790" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="819.75" y="-790" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="826.75" y="-790" font-family="opensans" font-size="10.00" fill="white"> clvDisponibilidad TINYINT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="801.5,-765 801.5,-783 1040.5,-783 1040.5,-765 801.5,-765"></polygon>
+<polygon fill="none" stroke="white" points="801.5,-765 801.5,-783 1040.5,-783 1040.5,-765 801.5,-765"></polygon>
+<text text-anchor="start" x="804.5" y="-771" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;disponibilidad VARCHAR(10) NOT NULL</text>
+</g>
+<!-- t_categorias -->
+<g id="node3" class="node" style="opacity: 1;">
+<title>t_categorias</title>
+<polygon fill="#232d95" stroke="transparent" points="818.5,-729 818.5,-747 1023.5,-747 1023.5,-729 818.5,-729"></polygon>
+<polygon fill="none" stroke="white" points="818.5,-729 818.5,-747 1023.5,-747 1023.5,-729 818.5,-729"></polygon>
+<text text-anchor="start" x="821.5" y="-736" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_categorias</text>
+<polygon fill="#404040" stroke="transparent" points="818.5,-711 818.5,-729 1023.5,-729 1023.5,-711 818.5,-711"></polygon>
+<polygon fill="none" stroke="white" points="818.5,-711 818.5,-729 1023.5,-729 1023.5,-711 818.5,-711"></polygon>
+<text text-anchor="start" x="821.5" y="-718" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="836.78" y="-718" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="843.78" y="-718" font-family="opensans" font-size="10.00" fill="white"> clvCategoria INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="818.5,-693 818.5,-711 1023.5,-711 1023.5,-693 818.5,-693"></polygon>
+<polygon fill="none" stroke="white" points="818.5,-693 818.5,-711 1023.5,-711 1023.5,-693 818.5,-693"></polygon>
+<text text-anchor="start" x="821.16" y="-699" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tipoCategoria VARCHAR(50) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="818.5,-675 818.5,-693 1023.5,-693 1023.5,-675 818.5,-675"></polygon>
+<polygon fill="none" stroke="white" points="818.5,-675 818.5,-693 1023.5,-693 1023.5,-675 818.5,-675"></polygon>
+<text text-anchor="start" x="821.5" y="-681" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(100) NOT NULL</text>
+</g>
+<!-- t_mantenimientos -->
+<g id="node4" class="node" style="opacity: 1;">
+<title>t_mantenimientos</title>
+<polygon fill="#232d95" stroke="transparent" points="532,-965 532,-983 748,-983 748,-965 532,-965"></polygon>
+<polygon fill="none" stroke="white" points="532,-965 532,-983 748,-983 748,-965 532,-965"></polygon>
+<text text-anchor="start" x="535" y="-972" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_mantenimientos</text>
+<polygon fill="#404040" stroke="transparent" points="532,-947 532,-965 748,-965 748,-947 532,-947"></polygon>
+<polygon fill="none" stroke="white" points="532,-947 532,-965 748,-965 748,-947 532,-947"></polygon>
+<text text-anchor="start" x="534.58" y="-954" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="549.86" y="-954" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="556.86" y="-954" font-family="opensans" font-size="10.00" fill="white"> clvMantenimiento INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="532,-929 532,-947 748,-947 748,-929 532,-929"></polygon>
+<polygon fill="none" stroke="white" points="532,-929 532,-947 748,-947 748,-929 532,-929"></polygon>
+<text text-anchor="start" x="535" y="-935" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mantenimiento VARCHAR(50) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="532,-911 532,-929 748,-929 748,-911 532,-911"></polygon>
+<polygon fill="none" stroke="white" points="532,-911 532,-929 748,-929 748,-911 532,-911"></polygon>
+<text text-anchor="start" x="535" y="-917" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(100) NOT NULL</text>
+</g>
+<!-- t_equipos -->
+<g id="node5" class="node">
+<title>t_equipos</title>
+<polygon fill="#232d95" stroke="transparent" points="529,-828 529,-846 751,-846 751,-828 529,-828"></polygon>
+<polygon fill="none" stroke="white" points="529,-828 529,-846 751,-846 751,-828 529,-828"></polygon>
+<text text-anchor="start" x="532" y="-835" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_equipos</text>
+<polygon fill="#404040" stroke="transparent" points="529,-810 529,-828 751,-828 751,-810 529,-810"></polygon>
+<polygon fill="none" stroke="white" points="529,-810 529,-828 751,-828 751,-810 529,-810"></polygon>
+<text text-anchor="start" x="532" y="-817" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="547.28" y="-817" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="554.28" y="-817" font-family="opensans" font-size="10.00" fill="white"> clvEquipo INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="529,-792 529,-810 751,-810 751,-792 529,-792"></polygon>
+<polygon fill="none" stroke="white" points="529,-792 529,-810 751,-810 751,-792 529,-792"></polygon>
+<text text-anchor="start" x="531.7" y="-798" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;noSerie VARCHAR(50) UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="529,-774 529,-792 751,-792 751,-774 529,-774"></polygon>
+<polygon fill="none" stroke="white" points="529,-774 529,-792 751,-792 751,-774 529,-774"></polygon>
+<text text-anchor="start" x="532" y="-780" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;modelo VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="529,-756 529,-774 751,-774 751,-756 529,-756"></polygon>
+<polygon fill="none" stroke="white" points="529,-756 529,-774 751,-774 751,-756 529,-756"></polygon>
+<text text-anchor="start" x="532" y="-763" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="547.28" y="-763" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="554.28" y="-763" font-family="opensans" font-size="10.00" fill="white"> clvDisponibilidad TINYINT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="529,-738 529,-756 751,-756 751,-738 529,-738"></polygon>
+<polygon fill="none" stroke="white" points="529,-738 529,-756 751,-756 751,-738 529,-738"></polygon>
+<text text-anchor="start" x="532" y="-745" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="547.28" y="-745" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="554.28" y="-745" font-family="opensans" font-size="10.00" fill="white"> clvCategoria INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="529,-720 529,-738 751,-738 751,-720 529,-720"></polygon>
+<polygon fill="none" stroke="white" points="529,-720 529,-738 751,-738 751,-720 529,-720"></polygon>
+<text text-anchor="start" x="532" y="-726" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(255) NOT NULL</text>
+</g>
+<!-- t_equipos&#45;&gt;t_disponibilidad -->
+<g id="edge1" class="edge" style="opacity: 1;">
+<title>t_equipos:clvDisponibilidad-&gt;t_disponibilidad:clvDisponibilidad</title>
+<path fill="none" stroke="#5ea54a" d="M752,-765C772.98,-765 775.74,-784.22 791.02,-790.23"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="790.54,-793.7 801,-792 791.77,-786.81 790.54,-793.7"></polygon>
+</g>
+<!-- t_equipos&#45;&gt;t_categorias -->
+<g id="edge2" class="edge" style="opacity: 1;">
+<title>t_equipos:clvCategoria-&gt;t_categorias:clvCategoria</title>
+<path fill="none" stroke="#5ea54a" d="M752,-747C779.8,-747 785.02,-725.96 807.53,-721.03"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="807.91,-724.5 817.5,-720 807.19,-717.54 807.91,-724.5"></polygon>
+</g>
+<!-- t_maquinas_mantenimientos -->
+<g id="node6" class="node" style="opacity: 1;">
+<title>t_maquinas_mantenimientos</title>
+<polygon fill="#232d95" stroke="transparent" points="272,-992 272,-1010 470,-1010 470,-992 272,-992"></polygon>
+<polygon fill="none" stroke="white" points="272,-992 272,-1010 470,-1010 470,-992 272,-992"></polygon>
+<text text-anchor="start" x="275" y="-999" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_maquinas_mantenimientos</text>
+<polygon fill="#404040" stroke="transparent" points="272,-974 272,-992 470,-992 470,-974 272,-974"></polygon>
+<polygon fill="none" stroke="white" points="272,-974 272,-992 470,-992 470,-974 272,-974"></polygon>
+<text text-anchor="start" x="275" y="-981" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="290.28" y="-981" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="297.28" y="-981" font-family="opensans" font-size="10.00" fill="white"> clvEquipo INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="272,-956 272,-974 470,-974 470,-956 272,-956"></polygon>
+<polygon fill="none" stroke="white" points="272,-956 272,-974 470,-974 470,-956 272,-956"></polygon>
+<text text-anchor="start" x="275" y="-963" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="290.28" y="-963" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="297.28" y="-963" font-family="opensans" font-size="10.00" fill="white"> clvMantenimiento INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="272,-938 272,-956 470,-956 470,-938 272,-938"></polygon>
+<polygon fill="none" stroke="white" points="272,-938 272,-956 470,-956 470,-938 272,-938"></polygon>
+<text text-anchor="start" x="275" y="-944" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;monto DECIMAL NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="272,-920 272,-938 470,-938 470,-920 272,-920"></polygon>
+<polygon fill="none" stroke="white" points="272,-920 272,-938 470,-938 470,-920 272,-920"></polygon>
+<text text-anchor="start" x="274.5" y="-926" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fecha_mantenimiento DATE NOT NULL</text>
+</g>
+<!-- t_maquinas_mantenimientos&#45;&gt;t_mantenimientos -->
+<g id="edge4" class="edge" style="opacity: 1;">
+<title>t_maquinas_mantenimientos:clvMantenimiento-&gt;t_mantenimientos:clvMantenimiento</title>
+<path fill="none" stroke="#5ea54a" d="M471,-965C494.28,-965 501.98,-958.29 521.01,-956.46"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="521.17,-959.95 531,-956 520.85,-952.96 521.17,-959.95"></polygon>
+</g>
+<!-- t_maquinas_mantenimientos&#45;&gt;t_equipos -->
+<g id="edge3" class="edge" style="opacity: 1;">
+<title>t_maquinas_mantenimientos:clvEquipo-&gt;t_equipos:clvEquipo</title>
+<path fill="none" stroke="#5ea54a" d="M471,-983C544.4,-983 459.92,-834.62 517.9,-820.13"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="518.45,-823.6 528,-819 517.67,-816.64 518.45,-823.6"></polygon>
+</g>
+<!-- t_rentas -->
+<g id="node7" class="node" style="opacity: 1;">
+<title>t_rentas</title>
+<polygon fill="#232d95" stroke="transparent" points="273,-1163 273,-1181 469,-1181 469,-1163 273,-1163"></polygon>
+<polygon fill="none" stroke="white" points="273,-1163 273,-1181 469,-1181 469,-1163 273,-1163"></polygon>
+<text text-anchor="start" x="276" y="-1170" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_rentas</text>
+<polygon fill="#404040" stroke="transparent" points="273,-1145 273,-1163 469,-1163 469,-1145 273,-1145"></polygon>
+<polygon fill="none" stroke="white" points="273,-1145 273,-1163 469,-1163 469,-1145 273,-1145"></polygon>
+<text text-anchor="start" x="275.86" y="-1152" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="291.14" y="-1152" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="298.14" y="-1152" font-family="opensans" font-size="10.00" fill="white"> clvRenta BIGINT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="273,-1127 273,-1145 469,-1145 469,-1127 273,-1127"></polygon>
+<polygon fill="none" stroke="white" points="273,-1127 273,-1145 469,-1145 469,-1127 273,-1127"></polygon>
+<text text-anchor="start" x="276" y="-1134" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="291.28" y="-1134" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="298.28" y="-1134" font-family="opensans" font-size="10.00" fill="white"> clvEquipo INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="273,-1109 273,-1127 469,-1127 469,-1109 273,-1109"></polygon>
+<polygon fill="none" stroke="white" points="273,-1109 273,-1127 469,-1127 469,-1109 273,-1109"></polygon>
+<text text-anchor="start" x="276" y="-1116" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="291.28" y="-1116" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="298.28" y="-1116" font-family="opensans" font-size="10.00" fill="white"> clvCliente INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="273,-1091 273,-1109 469,-1109 469,-1091 273,-1091"></polygon>
+<polygon fill="none" stroke="white" points="273,-1091 273,-1109 469,-1109 469,-1091 273,-1091"></polygon>
+<text text-anchor="start" x="276" y="-1097" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(100)</text>
+<polygon fill="#404040" stroke="transparent" points="273,-1073 273,-1091 469,-1091 469,-1073 273,-1073"></polygon>
+<polygon fill="none" stroke="white" points="273,-1073 273,-1091 469,-1091 469,-1073 273,-1073"></polygon>
+<text text-anchor="start" x="276" y="-1079" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fecha_inicio TIMESTAMP NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="273,-1055 273,-1073 469,-1073 469,-1055 273,-1055"></polygon>
+<polygon fill="none" stroke="white" points="273,-1055 273,-1073 469,-1073 469,-1055 273,-1055"></polygon>
+<text text-anchor="start" x="276" y="-1061" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fecha_fin TIMESTAMP NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="273,-1037 273,-1055 469,-1055 469,-1037 273,-1037"></polygon>
+<polygon fill="none" stroke="white" points="273,-1037 273,-1055 469,-1055 469,-1037 273,-1037"></polygon>
+<text text-anchor="start" x="276" y="-1043" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;monto DECIMAL NOT NULL</text>
+</g>
+<!-- t_rentas&#45;&gt;t_clientes -->
+<g id="edge6" class="edge" style="opacity: 1;">
+<title>t_rentas:clvCliente-&gt;t_clientes:clvCliente</title>
+<path fill="none" stroke="#5ea54a" d="M470,-1118C492.26,-1118 498.26,-1131.05 515.69,-1134.93"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="515.69,-1138.45 526,-1136 516.42,-1131.48 515.69,-1138.45"></polygon>
+</g>
+<!-- t_rentas&#45;&gt;t_equipos -->
+<g id="edge5" class="edge" style="opacity: 1;">
+<title>t_rentas:clvEquipo-&gt;t_equipos:clvEquipo</title>
+<path fill="none" stroke="#5ea54a" d="M470,-1136C537.98,-1136 464.64,-850.38 518.26,-821.37"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="519.11,-824.77 528,-819 517.46,-817.96 519.11,-824.77"></polygon>
+</g>
+<!-- t_taza_rentas -->
+<g id="node8" class="node" style="opacity: 1;">
+<title>t_taza_rentas</title>
+<polygon fill="#232d95" stroke="transparent" points="272,-846 272,-864 470,-864 470,-846 272,-846"></polygon>
+<polygon fill="none" stroke="white" points="272,-846 272,-864 470,-864 470,-846 272,-846"></polygon>
+<text text-anchor="start" x="275" y="-853" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_taza_rentas</text>
+<polygon fill="#404040" stroke="transparent" points="272,-828 272,-846 470,-846 470,-828 272,-828"></polygon>
+<polygon fill="none" stroke="white" points="272,-828 272,-846 470,-846 470,-828 272,-828"></polygon>
+<text text-anchor="start" x="274.75" y="-835" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="290.03" y="-835" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="297.03" y="-835" font-family="opensans" font-size="10.00" fill="white"> clvTazaRenta INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="272,-810 272,-828 470,-828 470,-810 272,-810"></polygon>
+<polygon fill="none" stroke="white" points="272,-810 272,-828 470,-828 470,-810 272,-810"></polygon>
+<text text-anchor="start" x="275" y="-817" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="290.28" y="-817" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="297.28" y="-817" font-family="opensans" font-size="10.00" fill="white"> clvEquipo INT UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="272,-792 272,-810 470,-810 470,-792 272,-792"></polygon>
+<polygon fill="none" stroke="white" points="272,-792 272,-810 470,-810 470,-792 272,-792"></polygon>
+<text text-anchor="start" x="275" y="-798" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rentaUnMes DECIMAL NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="272,-774 272,-792 470,-792 470,-774 272,-774"></polygon>
+<polygon fill="none" stroke="white" points="272,-774 272,-792 470,-792 470,-774 272,-774"></polygon>
+<text text-anchor="start" x="275" y="-780" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rentaDosMeses DECIMAL NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="272,-756 272,-774 470,-774 470,-756 272,-756"></polygon>
+<polygon fill="none" stroke="white" points="272,-756 272,-774 470,-774 470,-756 272,-756"></polygon>
+<text text-anchor="start" x="275" y="-762" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rentaTresMeses DECIMAL NOT NULL</text>
+</g>
+<!-- t_taza_rentas&#45;&gt;t_equipos -->
+<g id="edge7" class="edge" style="opacity: 1;">
+<title>t_taza_rentas:clvEquipo-&gt;t_equipos:clvEquipo</title>
+<path fill="none" stroke="#5ea54a" d="M471,-819C492.57,-819 500.37,-819 517.85,-819"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="518,-822.5 528,-819 518,-815.5 518,-822.5"></polygon>
+</g>
+<!-- t_estado_usuarios -->
+<g id="node9" class="node" style="opacity: 1;">
+<title>t_estado_usuarios</title>
+<polygon fill="#232d95" stroke="transparent" points="801.5,-522 801.5,-540 1039.5,-540 1039.5,-522 801.5,-522"></polygon>
+<polygon fill="none" stroke="white" points="801.5,-522 801.5,-540 1039.5,-540 1039.5,-522 801.5,-522"></polygon>
+<text text-anchor="start" x="804.5" y="-529" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_estado_usuarios</text>
+<polygon fill="#404040" stroke="transparent" points="801.5,-504 801.5,-522 1039.5,-522 1039.5,-504 801.5,-504"></polygon>
+<polygon fill="none" stroke="white" points="801.5,-504 801.5,-522 1039.5,-522 1039.5,-504 801.5,-504"></polygon>
+<text text-anchor="start" x="804.26" y="-511" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="819.54" y="-511" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="826.53" y="-511" font-family="opensans" font-size="10.00" fill="white"> clvEstadoUsuario TINYINT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="801.5,-486 801.5,-504 1039.5,-504 1039.5,-486 801.5,-486"></polygon>
+<polygon fill="none" stroke="white" points="801.5,-486 801.5,-504 1039.5,-504 1039.5,-486 801.5,-486"></polygon>
+<text text-anchor="start" x="804.5" y="-492" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;estadoUsuario VARCHAR(50) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="801.5,-468 801.5,-486 1039.5,-486 1039.5,-468 801.5,-468"></polygon>
+<polygon fill="none" stroke="white" points="801.5,-468 801.5,-486 1039.5,-486 1039.5,-468 801.5,-468"></polygon>
+<text text-anchor="start" x="804.5" y="-474" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(100)</text>
+</g>
+<!-- t_grupos -->
+<g id="node10" class="node" style="opacity: 1;">
+<title>t_grupos</title>
+<polygon fill="#232d95" stroke="transparent" points="830.5,-378 830.5,-396 1011.5,-396 1011.5,-378 830.5,-378"></polygon>
+<polygon fill="none" stroke="white" points="830.5,-378 830.5,-396 1011.5,-396 1011.5,-378 830.5,-378"></polygon>
+<text text-anchor="start" x="833.5" y="-385" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_grupos</text>
+<polygon fill="#404040" stroke="transparent" points="830.5,-360 830.5,-378 1011.5,-378 1011.5,-360 830.5,-360"></polygon>
+<polygon fill="none" stroke="white" points="830.5,-360 830.5,-378 1011.5,-378 1011.5,-360 830.5,-360"></polygon>
+<text text-anchor="start" x="833.36" y="-367" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="848.63" y="-367" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="855.63" y="-367" font-family="opensans" font-size="10.00" fill="white"> clvGrupo INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="830.5,-342 830.5,-360 1011.5,-360 1011.5,-342 830.5,-342"></polygon>
+<polygon fill="none" stroke="white" points="830.5,-342 830.5,-360 1011.5,-360 1011.5,-342 830.5,-342"></polygon>
+<text text-anchor="start" x="833.5" y="-348" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;grupo VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="830.5,-324 830.5,-342 1011.5,-342 1011.5,-324 830.5,-324"></polygon>
+<polygon fill="none" stroke="white" points="830.5,-324 830.5,-342 1011.5,-342 1011.5,-324 830.5,-324"></polygon>
+<text text-anchor="start" x="833.5" y="-330" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(200)</text>
+</g>
+<!-- t_permisos -->
+<g id="node11" class="node" style="opacity: 1;">
+<title>t_permisos</title>
+<polygon fill="#232d95" stroke="transparent" points="826.5,-234 826.5,-252 1015.5,-252 1015.5,-234 826.5,-234"></polygon>
+<polygon fill="none" stroke="white" points="826.5,-234 826.5,-252 1015.5,-252 1015.5,-234 826.5,-234"></polygon>
+<text text-anchor="start" x="829.5" y="-241" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_permisos</text>
+<polygon fill="#404040" stroke="transparent" points="826.5,-216 826.5,-234 1015.5,-234 1015.5,-216 826.5,-216"></polygon>
+<polygon fill="none" stroke="white" points="826.5,-216 826.5,-234 1015.5,-234 1015.5,-216 826.5,-216"></polygon>
+<text text-anchor="start" x="829.5" y="-223" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="844.78" y="-223" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="851.78" y="-223" font-family="opensans" font-size="10.00" fill="white"> clvPermiso INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="826.5,-198 826.5,-216 1015.5,-216 1015.5,-198 826.5,-198"></polygon>
+<polygon fill="none" stroke="white" points="826.5,-198 826.5,-216 1015.5,-216 1015.5,-198 826.5,-198"></polygon>
+<text text-anchor="start" x="829.49" y="-204" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Permiso VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="826.5,-180 826.5,-198 1015.5,-198 1015.5,-180 826.5,-180"></polygon>
+<polygon fill="none" stroke="white" points="826.5,-180 826.5,-198 1015.5,-198 1015.5,-180 826.5,-180"></polygon>
+<text text-anchor="start" x="829.5" y="-186" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(150)</text>
+</g>
+<!-- t_grupo_permisos -->
+<g id="node12" class="node" style="opacity: 1;">
+<title>t_grupo_permisos</title>
+<polygon fill="#232d95" stroke="transparent" points="565,-252 565,-270 715,-270 715,-252 565,-252"></polygon>
+<polygon fill="none" stroke="white" points="565,-252 565,-270 715,-270 715,-252 565,-252"></polygon>
+<text text-anchor="start" x="568" y="-259" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_grupo_permisos</text>
+<polygon fill="#404040" stroke="transparent" points="565,-234 565,-252 715,-252 715,-234 565,-234"></polygon>
+<polygon fill="none" stroke="white" points="565,-234 565,-252 715,-252 715,-234 565,-234"></polygon>
+<text text-anchor="start" x="568" y="-241" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="583.28" y="-241" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="590.28" y="-241" font-family="opensans" font-size="10.00" fill="white"> clvGrupo INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="565,-216 565,-234 715,-234 715,-216 565,-216"></polygon>
+<polygon fill="none" stroke="white" points="565,-216 565,-234 715,-234 715,-216 565,-216"></polygon>
+<text text-anchor="start" x="568" y="-223" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="583.28" y="-223" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="590.28" y="-223" font-family="opensans" font-size="10.00" fill="white"> clvPermiso INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="565,-198 565,-216 715,-216 715,-198 565,-198"></polygon>
+<polygon fill="none" stroke="white" points="565,-198 565,-216 715,-216 715,-198 565,-198"></polygon>
+<text text-anchor="start" x="567.93" y="-204" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(150)</text>
+</g>
+<!-- t_grupo_permisos&#45;&gt;t_grupos -->
+<g id="edge8" class="edge" style="opacity: 1;">
+<title>t_grupo_permisos:clvGrupo-&gt;t_grupos:clvGrupo</title>
+<path fill="none" stroke="#5ea54a" d="M716,-243C743.02,-243 746,-259.78 765,-279 796.89,-311.27 782.98,-360.53 819.16,-368.03"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="819.22,-371.55 829.5,-369 819.87,-364.58 819.22,-371.55"></polygon>
+</g>
+<!-- t_grupo_permisos&#45;&gt;t_permisos -->
+<g id="edge9" class="edge" style="opacity: 1;">
+<title>t_grupo_permisos:clvPermiso-&gt;t_permisos:clvPermiso</title>
+<path fill="none" stroke="#5ea54a" d="M716,-225C761.15,-225 774.88,-225 815.49,-225"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="815.5,-228.5 825.5,-225 815.5,-221.5 815.5,-228.5"></polygon>
+</g>
+<!-- t_usuarios -->
+<g id="node13" class="node" style="opacity: 1;">
+<title>t_usuarios</title>
+<polygon fill="#232d95" stroke="transparent" points="523,-540 523,-558 758,-558 758,-540 523,-540"></polygon>
+<polygon fill="none" stroke="white" points="523,-540 523,-558 758,-558 758,-540 523,-540"></polygon>
+<text text-anchor="start" x="526" y="-547" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_usuarios</text>
+<polygon fill="#404040" stroke="transparent" points="523,-522 523,-540 758,-540 758,-522 523,-522"></polygon>
+<polygon fill="none" stroke="white" points="523,-522 523,-540 758,-540 758,-522 523,-522"></polygon>
+<text text-anchor="start" x="526" y="-529" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="541.28" y="-529" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="548.28" y="-529" font-family="opensans" font-size="10.00" fill="white"> clvUsuario BIGINT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="523,-504 523,-522 758,-522 758,-504 523,-504"></polygon>
+<polygon fill="none" stroke="white" points="523,-504 523,-522 758,-522 758,-504 523,-504"></polygon>
+<text text-anchor="start" x="526" y="-511" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="541.28" y="-511" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="548.28" y="-511" font-family="opensans" font-size="10.00" fill="white"> clvEstadoUsuario TINYINT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-486 523,-504 758,-504 758,-486 523,-486"></polygon>
+<polygon fill="none" stroke="white" points="523,-486 523,-504 758,-504 758,-486 523,-486"></polygon>
+<text text-anchor="start" x="526" y="-493" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="541.28" y="-493" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="548.28" y="-493" font-family="opensans" font-size="10.00" fill="white"> clvGrupo INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-468 523,-486 758,-486 758,-468 523,-468"></polygon>
+<polygon fill="none" stroke="white" points="523,-468 523,-486 758,-486 758,-468 523,-468"></polygon>
+<text text-anchor="start" x="526" y="-474" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nombreUsuario VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-450 523,-468 758,-468 758,-450 523,-450"></polygon>
+<polygon fill="none" stroke="white" points="523,-450 523,-468 758,-468 758,-450 523,-450"></polygon>
+<text text-anchor="start" x="526" y="-456" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;apePaterno VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-432 523,-450 758,-450 758,-432 523,-432"></polygon>
+<polygon fill="none" stroke="white" points="523,-432 523,-450 758,-450 758,-432 523,-432"></polygon>
+<text text-anchor="start" x="526" y="-438" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;apeMaterno VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-414 523,-432 758,-432 758,-414 523,-414"></polygon>
+<polygon fill="none" stroke="white" points="523,-414 523,-432 758,-432 758,-414 523,-414"></polygon>
+<text text-anchor="start" x="525.81" y="-420" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;username VARCHAR(100) UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-396 523,-414 758,-414 758,-396 523,-396"></polygon>
+<polygon fill="none" stroke="white" points="523,-396 523,-414 758,-414 758,-396 523,-396"></polygon>
+<text text-anchor="start" x="526" y="-402" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;password VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-378 523,-396 758,-396 758,-378 523,-378"></polygon>
+<polygon fill="none" stroke="white" points="523,-378 523,-396 758,-396 758,-378 523,-378"></polygon>
+<text text-anchor="start" x="526" y="-384" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;email VARCHAR(100) UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-360 523,-378 758,-378 758,-360 523,-360"></polygon>
+<polygon fill="none" stroke="white" points="523,-360 523,-378 758,-378 758,-360 523,-360"></polygon>
+<text text-anchor="start" x="526" y="-366" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;direccion VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-342 523,-360 758,-360 758,-342 523,-342"></polygon>
+<polygon fill="none" stroke="white" points="523,-342 523,-360 758,-360 758,-342 523,-342"></polygon>
+<text text-anchor="start" x="526" y="-348" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;telefono VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-324 523,-342 758,-342 758,-324 523,-324"></polygon>
+<polygon fill="none" stroke="white" points="523,-324 523,-342 758,-342 758,-324 523,-324"></polygon>
+<text text-anchor="start" x="526" y="-330" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fechaNacimiento DATE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="523,-306 523,-324 758,-324 758,-306 523,-306"></polygon>
+<polygon fill="none" stroke="white" points="523,-306 523,-324 758,-324 758,-306 523,-306"></polygon>
+<text text-anchor="start" x="526" y="-312" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;foto VARCHAR(100)</text>
+<polygon fill="#404040" stroke="transparent" points="523,-288 523,-306 758,-306 758,-288 523,-288"></polygon>
+<polygon fill="none" stroke="white" points="523,-288 523,-306 758,-306 758,-288 523,-288"></polygon>
+<text text-anchor="start" x="526" y="-294" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fechaRegistro DATETIME</text>
+</g>
+<!-- t_usuarios&#45;&gt;t_estado_usuarios -->
+<g id="edge10" class="edge" style="opacity: 1;">
+<title>t_usuarios:clvEstadoUsuario-&gt;t_estado_usuarios:clvEstadoUsuario</title>
+<path fill="none" stroke="#5ea54a" d="M759,-513C773.73,-513 779.74,-513 790.79,-513"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="791,-516.5 801,-513 791,-509.5 791,-516.5"></polygon>
+</g>
+<!-- t_usuarios&#45;&gt;t_grupos -->
+<g id="edge11" class="edge" style="opacity: 1;">
+<title>t_usuarios:clvGrupo-&gt;t_grupos:clvGrupo</title>
+<path fill="none" stroke="#5ea54a" d="M759,-495C819.41,-495 771.69,-383.33 819.43,-370.25"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="820.01,-373.7 829.5,-369 819.15,-366.76 820.01,-373.7"></polygon>
+</g>
+<!-- t_solicitudes_equipo -->
+<g id="node14" class="node" style="opacity: 1;">
+<title>t_solicitudes_equipo</title>
+<polygon fill="#232d95" stroke="transparent" points="267,-720 267,-738 476,-738 476,-720 267,-720"></polygon>
+<polygon fill="none" stroke="white" points="267,-720 267,-738 476,-738 476,-720 267,-720"></polygon>
+<text text-anchor="start" x="270" y="-727" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_solicitudes_equipo</text>
+<polygon fill="#404040" stroke="transparent" points="267,-702 267,-720 476,-720 476,-702 267,-702"></polygon>
+<polygon fill="none" stroke="white" points="267,-702 267,-720 476,-720 476,-702 267,-702"></polygon>
+<text text-anchor="start" x="269.96" y="-709" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="285.24" y="-709" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="292.24" y="-709" font-family="opensans" font-size="10.00" fill="white"> clvSolicitud BIGINT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="267,-684 267,-702 476,-702 476,-684 267,-684"></polygon>
+<polygon fill="none" stroke="white" points="267,-684 267,-702 476,-702 476,-684 267,-684"></polygon>
+<text text-anchor="start" x="270" y="-691" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="285.28" y="-691" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="292.28" y="-691" font-family="opensans" font-size="10.00" fill="white"> clvEquipo INT UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="267,-666 267,-684 476,-684 476,-666 267,-666"></polygon>
+<polygon fill="none" stroke="white" points="267,-666 267,-684 476,-684 476,-666 267,-666"></polygon>
+<text text-anchor="start" x="270" y="-673" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="285.28" y="-673" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="292.28" y="-673" font-family="opensans" font-size="10.00" fill="white"> clvCliente BIGINT UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="267,-648 267,-666 476,-666 476,-648 267,-648"></polygon>
+<polygon fill="none" stroke="white" points="267,-648 267,-666 476,-666 476,-648 267,-648"></polygon>
+<text text-anchor="start" x="270" y="-654" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fechaInicio DATE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="267,-630 267,-648 476,-648 476,-630 267,-630"></polygon>
+<polygon fill="none" stroke="white" points="267,-630 267,-648 476,-648 476,-630 267,-630"></polygon>
+<text text-anchor="start" x="270" y="-636" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fechaFin DATE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="267,-612 267,-630 476,-630 476,-612 267,-612"></polygon>
+<polygon fill="none" stroke="white" points="267,-612 267,-630 476,-630 476,-612 267,-612"></polygon>
+<text text-anchor="start" x="270" y="-618" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(200) NOT NULL</text>
+</g>
+<!-- t_solicitudes_equipo&#45;&gt;t_equipos -->
+<g id="edge12" class="edge" style="opacity: 1;">
+<title>t_solicitudes_equipo:clvEquipo-&gt;t_equipos:clvEquipo</title>
+<path fill="none" stroke="#5ea54a" d="M477,-693C533.52,-693 476.05,-803.28 517.87,-817.5"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="517.59,-820.99 528,-819 518.62,-814.07 517.59,-820.99"></polygon>
+</g>
+<!-- t_solicitudes_equipo&#45;&gt;t_usuarios -->
+<g id="edge13" class="edge" style="opacity: 1;">
+<title>t_solicitudes_equipo:clvCliente-&gt;t_usuarios:clvUsuario</title>
+<path fill="none" stroke="#5ea54a" d="M477,-675C540.25,-675 464.54,-546.85 512.05,-532.33"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="512.55,-535.8 522,-531 511.62,-528.86 512.55,-535.8"></polygon>
+</g>
+<!-- t_estado_cotizaciones -->
+<g id="node15" class="node" style="opacity: 1;">
+<title>t_estado_cotizaciones</title>
+<polygon fill="#232d95" stroke="transparent" points="515,-162 515,-180 765,-180 765,-162 515,-162"></polygon>
+<polygon fill="none" stroke="white" points="515,-162 515,-180 765,-180 765,-162 515,-162"></polygon>
+<text text-anchor="start" x="518" y="-169" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_estado_cotizaciones</text>
+<polygon fill="#404040" stroke="transparent" points="515,-144 515,-162 765,-162 765,-144 515,-144"></polygon>
+<polygon fill="none" stroke="white" points="515,-144 515,-162 765,-162 765,-144 515,-144"></polygon>
+<text text-anchor="start" x="517.92" y="-151" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="533.2" y="-151" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="540.2" y="-151" font-family="opensans" font-size="10.00" fill="white"> clvEstadoCotizacion TINYINT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="515,-126 515,-144 765,-144 765,-126 515,-126"></polygon>
+<polygon fill="none" stroke="white" points="515,-126 515,-144 765,-144 765,-126 515,-126"></polygon>
+<text text-anchor="start" x="518" y="-132" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;estadoCotizacion VARCHAR(50) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="515,-108 515,-126 765,-126 765,-108 515,-108"></polygon>
+<polygon fill="none" stroke="white" points="515,-108 515,-126 765,-126 765,-108 515,-108"></polygon>
+<text text-anchor="start" x="518" y="-114" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(150)</text>
+</g>
+<!-- t_cotizaciones -->
+<g id="node16" class="node" style="opacity: 1;">
+<title>t_cotizaciones</title>
+<polygon fill="#232d95" stroke="transparent" points="263,-576 263,-594 479,-594 479,-576 263,-576"></polygon>
+<polygon fill="none" stroke="white" points="263,-576 263,-594 479,-594 479,-576 263,-576"></polygon>
+<text text-anchor="start" x="266" y="-583" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_cotizaciones</text>
+<polygon fill="#404040" stroke="transparent" points="263,-558 263,-576 479,-576 479,-558 263,-558"></polygon>
+<polygon fill="none" stroke="white" points="263,-558 263,-576 479,-576 479,-558 263,-558"></polygon>
+<text text-anchor="start" x="265.86" y="-565" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="281.14" y="-565" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="288.14" y="-565" font-family="opensans" font-size="10.00" fill="white"> clvCotizacion BIGINT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="263,-540 263,-558 479,-558 479,-540 263,-540"></polygon>
+<polygon fill="none" stroke="white" points="263,-540 263,-558 479,-558 479,-540 263,-540"></polygon>
+<text text-anchor="start" x="266" y="-547" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="281.28" y="-547" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="288.28" y="-547" font-family="opensans" font-size="10.00" fill="white"> clvEquipo INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="263,-522 263,-540 479,-540 479,-522 263,-522"></polygon>
+<polygon fill="none" stroke="white" points="263,-522 263,-540 479,-540 479,-522 263,-522"></polygon>
+<text text-anchor="start" x="266" y="-529" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="281.28" y="-529" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="288.28" y="-529" font-family="opensans" font-size="10.00" fill="white"> clvCliente BIGINT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="263,-504 263,-522 479,-522 479,-504 263,-504"></polygon>
+<polygon fill="none" stroke="white" points="263,-504 263,-522 479,-522 479,-504 263,-504"></polygon>
+<text text-anchor="start" x="266" y="-511" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="281.28" y="-511" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="288.28" y="-511" font-family="opensans" font-size="10.00" fill="white"> clvVendedor BIGINT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="263,-486 263,-504 479,-504 479,-486 263,-486"></polygon>
+<polygon fill="none" stroke="white" points="263,-486 263,-504 479,-504 479,-486 263,-486"></polygon>
+<text text-anchor="start" x="266" y="-493" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="281.28" y="-493" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="288.28" y="-493" font-family="opensans" font-size="10.00" fill="white"> clvEstadoCotizacion TINYINT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="263,-468 263,-486 479,-486 479,-468 263,-468"></polygon>
+<polygon fill="none" stroke="white" points="263,-468 263,-486 479,-486 479,-468 263,-468"></polygon>
+<text text-anchor="start" x="266" y="-474" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fechaCotizacion DATETIME NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="263,-450 263,-468 479,-468 479,-450 263,-450"></polygon>
+<polygon fill="none" stroke="white" points="263,-450 263,-468 479,-468 479,-450 263,-450"></polygon>
+<text text-anchor="start" x="266" y="-456" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcionCotizacion text NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="263,-432 263,-450 479,-450 479,-432 263,-432"></polygon>
+<polygon fill="none" stroke="white" points="263,-432 263,-450 479,-450 479,-432 263,-432"></polygon>
+<text text-anchor="start" x="266" y="-438" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fechaInicio DATE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="263,-414 263,-432 479,-432 479,-414 263,-414"></polygon>
+<polygon fill="none" stroke="white" points="263,-414 263,-432 479,-432 479,-414 263,-414"></polygon>
+<text text-anchor="start" x="266" y="-420" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fechaFin DATE NOT NULL</text>
+</g>
+<!-- t_cotizaciones&#45;&gt;t_equipos -->
+<g id="edge14" class="edge" style="opacity: 1;">
+<title>t_cotizaciones:clvEquipo-&gt;t_equipos:clvEquipo</title>
+<path fill="none" stroke="#5ea54a" d="M479,-549C536.29,-549 475.36,-787.29 518.34,-816.15"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="517.42,-819.53 528,-819 519.4,-812.81 517.42,-819.53"></polygon>
+</g>
+<!-- t_cotizaciones&#45;&gt;t_usuarios -->
+<g id="edge15" class="edge" style="opacity: 1;">
+<title>t_cotizaciones:clvCliente-&gt;t_usuarios:clvUsuario</title>
+<path fill="none" stroke="#5ea54a" d="M479,-531C494.23,-531 500.36,-531 511.89,-531"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="512,-534.5 522,-531 512,-527.5 512,-534.5"></polygon>
+</g>
+<!-- t_cotizaciones&#45;&gt;t_usuarios -->
+<g id="edge16" class="edge" style="opacity: 1;">
+<title>t_cotizaciones:clvVendedor-&gt;t_usuarios:clvUsuario</title>
+<path fill="none" stroke="#5ea54a" d="M479,-513C495.83,-513 500.02,-524.88 512.11,-529.34"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="511.56,-532.79 522,-531 512.72,-525.89 511.56,-532.79"></polygon>
+</g>
+<!-- t_cotizaciones&#45;&gt;t_estado_cotizaciones -->
+<g id="edge17" class="edge" style="opacity: 1;">
+<title>t_cotizaciones:clvEstadoCotizacion-&gt;t_estado_cotizaciones:clvEstadoCotizacion</title>
+<path fill="none" stroke="#5ea54a" d="M479,-495C551.69,-495 449.53,-185.58 505.14,-155.37"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="506.09,-158.74 515,-153 504.46,-151.93 506.09,-158.74"></polygon>
+</g>
+<!-- t_tipo_pagos -->
+<g id="node17" class="node" style="opacity: 1;">
+<title>t_tipo_pagos</title>
+<polygon fill="#232d95" stroke="transparent" points="539,-72 539,-90 741,-90 741,-72 539,-72"></polygon>
+<polygon fill="none" stroke="white" points="539,-72 539,-90 741,-90 741,-72 539,-72"></polygon>
+<text text-anchor="start" x="542" y="-79" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_tipo_pagos</text>
+<polygon fill="#404040" stroke="transparent" points="539,-54 539,-72 741,-72 741,-54 539,-54"></polygon>
+<polygon fill="none" stroke="white" points="539,-54 539,-72 741,-72 741,-54 539,-54"></polygon>
+<text text-anchor="start" x="542" y="-61" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="557.28" y="-61" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="564.28" y="-61" font-family="opensans" font-size="10.00" fill="white"> clvTipoPago INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="539,-36 539,-54 741,-54 741,-36 539,-36"></polygon>
+<polygon fill="none" stroke="white" points="539,-36 539,-54 741,-54 741,-36 539,-36"></polygon>
+<text text-anchor="start" x="542" y="-42" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tipoPago VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="539,-18 539,-36 741,-36 741,-18 539,-18"></polygon>
+<polygon fill="none" stroke="white" points="539,-18 539,-36 741,-36 741,-18 539,-18"></polygon>
+<text text-anchor="start" x="542" y="-24" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;estado BOOLEAN NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="539,0 539,-18 741,-18 741,0 539,0"></polygon>
+<polygon fill="none" stroke="white" points="539,0 539,-18 741,-18 741,0 539,0"></polygon>
+<text text-anchor="start" x="541.83" y="-6" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(100) NOT NULL</text>
+</g>
+<!-- t_pagos -->
+<g id="node18" class="node" style="opacity: 1;">
+<title>t_pagos</title>
+<polygon fill="#232d95" stroke="transparent" points="269,-378 269,-396 474,-396 474,-378 269,-378"></polygon>
+<polygon fill="none" stroke="white" points="269,-378 269,-396 474,-396 474,-378 269,-378"></polygon>
+<text text-anchor="start" x="272" y="-385" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_pagos</text>
+<polygon fill="#404040" stroke="transparent" points="269,-360 269,-378 474,-378 474,-360 269,-360"></polygon>
+<polygon fill="none" stroke="white" points="269,-360 269,-378 474,-378 474,-360 269,-360"></polygon>
+<text text-anchor="start" x="272" y="-367" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="287.28" y="-367" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="294.28" y="-367" font-family="opensans" font-size="10.00" fill="white"> clvPago BIGINT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="269,-342 269,-360 474,-360 474,-342 269,-342"></polygon>
+<polygon fill="none" stroke="white" points="269,-342 269,-360 474,-360 474,-342 269,-342"></polygon>
+<text text-anchor="start" x="272" y="-349" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="287.28" y="-349" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="294.28" y="-349" font-family="opensans" font-size="10.00" fill="white"> clvEquipo INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="269,-324 269,-342 474,-342 474,-324 269,-324"></polygon>
+<polygon fill="none" stroke="white" points="269,-324 269,-342 474,-342 474,-324 269,-324"></polygon>
+<text text-anchor="start" x="272" y="-331" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="287.28" y="-331" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="294.28" y="-331" font-family="opensans" font-size="10.00" fill="white"> clvTipoPago INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="269,-306 269,-324 474,-324 474,-306 269,-306"></polygon>
+<polygon fill="none" stroke="white" points="269,-306 269,-324 474,-324 474,-306 269,-306"></polygon>
+<text text-anchor="start" x="272" y="-313" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="287.28" y="-313" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="294.28" y="-313" font-family="opensans" font-size="10.00" fill="white"> clvCliente BIGINT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="269,-288 269,-306 474,-306 474,-288 269,-288"></polygon>
+<polygon fill="none" stroke="white" points="269,-288 269,-306 474,-306 474,-288 269,-288"></polygon>
+<text text-anchor="start" x="272" y="-295" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="287.28" y="-295" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="294.28" y="-295" font-family="opensans" font-size="10.00" fill="white"> clvVendedor BIGINT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="269,-270 269,-288 474,-288 474,-270 269,-270"></polygon>
+<polygon fill="none" stroke="white" points="269,-270 269,-288 474,-288 474,-270 269,-270"></polygon>
+<text text-anchor="start" x="271.81" y="-276" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;noContrato BIGINT UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="269,-252 269,-270 474,-270 474,-252 269,-252"></polygon>
+<polygon fill="none" stroke="white" points="269,-252 269,-270 474,-270 474,-252 269,-252"></polygon>
+<text text-anchor="start" x="272" y="-258" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;noPago INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="269,-234 269,-252 474,-252 474,-234 269,-234"></polygon>
+<polygon fill="none" stroke="white" points="269,-234 269,-252 474,-252 474,-234 269,-234"></polygon>
+<text text-anchor="start" x="272" y="-240" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fecha DATE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="269,-216 269,-234 474,-234 474,-216 269,-216"></polygon>
+<polygon fill="none" stroke="white" points="269,-216 269,-234 474,-234 474,-216 269,-216"></polygon>
+<text text-anchor="start" x="272" y="-222" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;registroPago DATETIME NOT NULL</text>
+</g>
+<!-- t_pagos&#45;&gt;t_equipos -->
+<g id="edge18" class="edge" style="opacity: 1;">
+<title>t_pagos:clvEquipo-&gt;t_equipos:clvEquipo</title>
+<path fill="none" stroke="#5ea54a" d="M475,-351C575.99,-351 434,-786.67 517.91,-817.31"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="517.56,-820.8 528,-819 518.72,-813.89 517.56,-820.8"></polygon>
+</g>
+<!-- t_pagos&#45;&gt;t_usuarios -->
+<g id="edge20" class="edge" style="opacity: 1;">
+<title>t_pagos:clvCliente-&gt;t_usuarios:clvUsuario</title>
+<path fill="none" stroke="#5ea54a" d="M475,-315C569.41,-315 435.05,-514.45 511.59,-530.04"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="511.72,-533.56 522,-531 512.37,-526.59 511.72,-533.56"></polygon>
+</g>
+<!-- t_pagos&#45;&gt;t_usuarios -->
+<g id="edge21" class="edge" style="opacity: 1;">
+<title>t_pagos:clvVendedor-&gt;t_usuarios:clvUsuario</title>
+<path fill="none" stroke="#5ea54a" d="M475,-297C577.35,-297 427.2,-514.84 511.79,-530.15"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="511.74,-533.66 522,-531 512.32,-526.68 511.74,-533.66"></polygon>
+</g>
+<!-- t_pagos&#45;&gt;t_tipo_pagos -->
+<g id="edge19" class="edge" style="opacity: 1;">
+<title>t_pagos:clvTipoPago-&gt;t_tipo_pagos:clvTipoPago</title>
+<path fill="none" stroke="#5ea54a" d="M475,-333C532.88,-333 483.23,-94.71 528.09,-65.85"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="529.36,-69.13 538,-63 527.42,-62.4 529.36,-69.13"></polygon>
+</g>
+<!-- t_periodos_rentas -->
+<g id="node19" class="node" style="opacity: 1;">
+<title>t_periodos_rentas</title>
+<polygon fill="#232d95" stroke="transparent" points="0.5,-666 0.5,-684 227.5,-684 227.5,-666 0.5,-666"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-666 0.5,-684 227.5,-684 227.5,-666 0.5,-666"></polygon>
+<text text-anchor="start" x="3.5" y="-673" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">t_periodos_rentas</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-648 0.5,-666 227.5,-666 227.5,-648 0.5,-648"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-648 0.5,-666 227.5,-666 227.5,-648 0.5,-648"></polygon>
+<text text-anchor="start" x="3.31" y="-655" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="18.58" y="-655" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.58" y="-655" font-family="opensans" font-size="10.00" fill="white"> clvPeriodoRenta BIGINT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-630 0.5,-648 227.5,-648 227.5,-630 0.5,-630"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-630 0.5,-648 227.5,-648 227.5,-630 0.5,-630"></polygon>
+<text text-anchor="start" x="3.5" y="-637" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.78" y="-637" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.78" y="-637" font-family="opensans" font-size="10.00" fill="white"> clvEquipo INT UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-612 0.5,-630 227.5,-630 227.5,-612 0.5,-612"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-612 0.5,-630 227.5,-630 227.5,-612 0.5,-612"></polygon>
+<text text-anchor="start" x="3.5" y="-619" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.78" y="-619" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.78" y="-619" font-family="opensans" font-size="10.00" fill="white"> clvPago BIGINT UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-594 0.5,-612 227.5,-612 227.5,-594 0.5,-594"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-594 0.5,-612 227.5,-612 227.5,-594 0.5,-594"></polygon>
+<text text-anchor="start" x="3.5" y="-600" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;descripcion VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-576 0.5,-594 227.5,-594 227.5,-576 0.5,-576"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-576 0.5,-594 227.5,-594 227.5,-576 0.5,-576"></polygon>
+<text text-anchor="start" x="3.5" y="-582" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fecha DATE NOT NULL</text>
+</g>
+<!-- t_periodos_rentas&#45;&gt;t_equipos -->
+<g id="edge22" class="edge" style="opacity: 1;">
+<title>t_periodos_rentas:clvEquipo-&gt;t_equipos:clvEquipo</title>
+<path fill="none" stroke="#5ea54a" d="M227,-639C279.61,-639 223.07,-838.74 263,-873 299.43,-904.25 435.11,-892.44 479,-873 505.04,-861.46 498.12,-828.49 518.07,-820.68"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="518.72,-824.12 528,-819 517.56,-817.21 518.72,-824.12"></polygon>
+</g>
+<!-- t_periodos_rentas&#45;&gt;t_pagos -->
+<g id="edge23" class="edge" style="opacity: 1;">
+<title>t_periodos_rentas:clvPago-&gt;t_pagos:clvPago</title>
+<path fill="none" stroke="#5ea54a" d="M227,-621C279.97,-621 220.32,-401.36 258.33,-372.19"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="259.6,-375.45 268,-369 257.41,-368.81 259.6,-375.45"></polygon>
+</g>
+</g>
+</svg>

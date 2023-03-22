@@ -17,6 +17,6 @@ mix.js("resources/js/app.js", "public/js")
     .version()
     .browserSync({
         proxy: "http://laravel-crud.test",
-        browser: "Brave",
+        browser: "Opera",
     })
     .disableNotifications();

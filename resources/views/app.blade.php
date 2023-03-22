@@ -27,11 +27,10 @@
 
     <!-- Titulo del sitio web -->
     <title>@yield('meta-title', config('app.name'))</title>
-
-    <!-- Enlaces a hojas de estilo CSS -->
-    <link rel="stylesheet" href="{{ url('/css/style.css') }}">
     <!-- Importacion de las clases CSS compiladas por Webpack -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <!-- Enlaces a hojas de estilo CSS -->
+    <link rel="stylesheet" href="{{ url('/css/style.css') }}">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha384-NXcJ/dE50k2rnZ0sU8W39BfzvUH2Qxjlhazk8WnX9fYmkHz51ryJhZ6qGwqjCIFe" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-5z5g5RPSdYd0rVl5eLy8P6hv+/L6vN1hQWNx6dPyK/zy9AgvgeSQh6ERfw0FpAcC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css"> -->
@@ -53,61 +52,95 @@
     <!-- -->
     <!--</header>-->
 
-    <div id="app">
-        <div style="min-height: 100vh">
-            <v-app>
-                <v-navigation-drawer app="app" v-model="drawer" color="green" dark="dark" expand-on-hover
-                    permanent>
-                    <v-list dense="dense">
-                        <v-list-item>
-                            <v-list-item-avatar>
-                                <v-img src="https://webstockreview.net/images/profile-icon-png.png"></v-img>
-                            </v-list-item-avatar>
-                            <v-list-item-content>
-                                <v-list-item-title>Ejemplo De Dashboard Admin</v-list-item-title>
-                            </v-list-item-content>
-                        </v-list-item>
-                        <v-divider></v-divider>
-                        @foreach ($appData['items'] as $item)
-                            <v-list-item key="{{ $loop->index }}" router="router" to="{{ $item['route'] }}">
-                                <v-list-item-icon hide-details>
+    <div id="app" style="min-height: 100vh" class="ma-12 pa-12">
+        <v-app>
+            <v-navigation-drawer v-model="drawer" width="260" app color="green" dark expand-on-hover permanent
+                mini-variant>
+                <v-list dense>
+                    <v-list-item>
+                        <v-list-item-avatar>
+                            <v-img src="https://webstockreview.net/images/profile-icon-png.png"></v-img>
+                        </v-list-item-avatar>
+                        <v-list-item-content>
+                            <v-list-item-title class="title">Dashboard </v-list-item-title>
+                            <v-list-item-subtitle>Navigation drawers</v-list-item-subtitle>
+                        </v-list-item-content>
+                    </v-list-item>
+                    <v-divider dark></v-divider>
+                    @foreach ($appData['items'] as $item)
+                        @if (isset($item['route']))
+                            <v-list-item key="{{ $loop->index }}" to="{{ $item['route'] }}">
+                                <v-list-item-icon>
                                     <v-icon>{{ $item['icon'] }}</v-icon>
                                 </v-list-item-icon>
                                 <v-list-item-content>
                                     <v-list-item-title>{{ $item['title'] }}</v-list-item-title>
                                 </v-list-item-content>
                             </v-list-item>
-                        @endforeach
-                    </v-list>
-                </v-navigation-drawer>
-                <div
-                    v-bind:class="{ 'drawer-expanded': {{ $appData['drawer'] }}, 'drawer-collapsed': !{{ $appData['drawer'] }} }">
-                    <v-app-bar app="app" color="green" dark="dark">
-                        <v-toolbar-title>@yield('meta-title', config('app.name'))</v-toolbar-title>
-                        <v-spacer></v-spacer>
-                        <v-btn text="text">Logout<v-icon>mdi-logout</v-icon>
-                        </v-btn>
-                    </v-app-bar>
-                    <v-main app="app">
-                        <transition name="slide-fade" mode="out-in">
-                            <router-view></router-view>
-                        </transition>
-                    </v-main>
-                    <v-footer app="app" color="black" dark="dark">
-                        <span>&copy; 2023 - My Company</span>
-                    </v-footer>
-                </div>
-            </v-app>
-        </div>
+                        @else
+                            <v-list-group prepend-icon="{{ $item['icon'] }}">
+                                <template v-slot:activator>
+                                    <v-list-item-title>{{ $item['title'] }}</v-list-item-title>
+                                </template>
+                                @foreach ($item['sub_items'] as $sub_item)
+                                    @if (isset($sub_item['route']))
+                                        <v-list-item key="{{ $loop->index }}" to="{{ $sub_item['route'] }}">
+                                            <v-list-item-icon>
+                                                <v-icon>{{ $sub_item['icon'] }}</v-icon>
+                                            </v-list-item-icon>
+                                            <v-list-item-content>
+                                                <v-list-item-title>{{ $sub_item['title'] }}</v-list-item-title>
+                                            </v-list-item-content>
+                                        </v-list-item>
+                                    @else
+                                        <v-list-group no-action sub-group>
+                                            <template v-slot:activator>
+                                                <v-list-item-content>
+                                                    <v-list-item-title>Admin</v-list-item-title>
+                                                </v-list-item-content>
+                                            </template>
+                                            @foreach ($sub_item['sub_items'] as $second_sub_item)
+                                                <v-list-item key="{{ $loop->index }}"
+                                                    to="{{ $second_sub_item['route'] }}">
+                                                    <v-list-item-icon>
+                                                        <v-icon>{{ $second_sub_item['icon'] }}</v-icon>
+                                                    </v-list-item-icon>
+                                                    <v-list-item-content>
+                                                        <v-list-item-title>{{ $second_sub_item['title'] }}
+                                                        </v-list-item-title>
+                                                    </v-list-item-content>
+                                                </v-list-item>
+                                            @endforeach
+                                        </v-list-group>
+                                    @endif
+                                @endforeach
+                            </v-list-group>
+                        @endif
+                    @endforeach
+                </v-list>
+            </v-navigation-drawer>
+            <v-app-bar app color="green" dark fixed>
+                {{-- <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon> --}}
+                <v-toolbar-title>@yield('meta-title', config('app.name'))</v-toolbar-title>
+                <v-spacer></v-spacer>
+                <v-btn text="text">Logout<v-icon>mdi-logout</v-icon>
+                </v-btn>
+            </v-app-bar>
+            <v-main app fluid>
+                <transition name="slide-fade" mode="out-in">
+                    <router-view></router-view>
+                </transition>
+            </v-main>
+            <v-footer app color="black" dark>
+                <span>&copy; 2023 - My Company</span>
+            </v-footer>
+        </v-app>
     </div>
 
     <!-- Importacion de las clases JS compiladas por Webpack -->
     <script src="{{ mix('js/app.js') }}"></script>
 
-    <script>
-        // $obj = @json($appData);
-        // console.log($obj);
-    </script>
+    <script></script>
 
     <!--<footer>-->
     <!-- -->

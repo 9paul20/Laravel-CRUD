@@ -9,8 +9,6 @@ class DashboardController extends Controller
     public function index()
     {
         $appData = [
-            'drawer' => true,
-            'mini' => true,
             'items' => [
                 [
                     'id' => 1,
@@ -38,12 +36,63 @@ class DashboardController extends Controller
                 ],
                 [
                     'id' => 5,
+                    'icon' => 'mdi-table',
+                    'title' => 'CRUDS',
+                    'sub_items' => [
+                        [
+                            'id' => 11,
+                            'icon' => 'mdi-table',
+                            'title' => 'Uno',
+                            'route' => '/crud_one',
+                        ],
+                        [
+                            'id' => 12,
+                            'icon' => 'mdi-table',
+                            'title' => 'Dos',
+                            'route' => '/crud_two',
+                        ],
+                        [
+                            'id' => 13,
+                            'icon' => 'mdi-table',
+                            'title' => 'Tres',
+                            'route' => '/crud_tree',
+                        ],
+                    ],
+                ],
+                [
+                    'id' => 6,
+                    'icon' => 'mdi-table',
+                    'title' => 'CRUDS',
+                    'sub_items' => [
+                        [
+                            'id' => 14,
+                            'icon' => 'mdi-table',
+                            'title' => 'Cuatro',
+                            'sub_items' => [
+                                [
+                                    'id' => 21,
+                                    'icon' => 'mdi-eye',
+                                    'title' => 'Cinco',
+                                    'route' => '/crud_five',
+                                ],
+                            ],
+                        ],
+                        [
+                            'id' => 12,
+                            'icon' => 'mdi-table',
+                            'title' => 'Seis',
+                            'route' => '/crud_six',
+                        ],
+                    ],
+                ],
+                [
+                    'id' => 7,
                     'icon' => 'mdi-alert-circle-outline',
                     'title' => '403',
                     'route' => '/403',
                 ],
                 [
-                    'id' => 6,
+                    'id' => 8,
                     'icon' => 'mdi-alert-circle-outline',
                     'title' => '404',
                     'route' => '/404',

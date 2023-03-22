@@ -15,7 +15,7 @@
         </v-row>
         <v-row>
             <v-col cols="12">
-                <v-btn color="primary" dark to="/">Volver al inicio</v-btn>
+                <v-btn color="green" dark to="/">Volver al inicio</v-btn>
             </v-col>
         </v-row>
     </v-container>

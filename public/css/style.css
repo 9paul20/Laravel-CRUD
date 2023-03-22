@@ -1,15 +1,15 @@
 /* Style Dashboard */
-.v-list-item--active {
+/* .v-list-item--active {
     background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
 /* Animation VueJS */
 .slide-fade-enter-active {
-    transition: all 0.4s ease;
+    transition: all 0.1s ease;
 }
 
 .slide-fade-leave-active {
-    transition: all 0.4s cubic-bezier(1, 0.5, 0.8, 1);
+    transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
 }
 
 .slide-fade-enter,
@@ -44,12 +44,12 @@
     padding: 16px;
 }
 
-/* Estilos para el contenido principal cuando la navegación está expandida */
-.drawer-expanded {
-    margin-left: -240px;
+/* */
+.v-list-group--active .v-list-group__header .primary--text {
+    background-color: #fff !important;
 }
 
-/* Estilos para el contenido principal cuando la navegación está contraída */
-.drawer-collapsed {
-    margin-left: 72px;
+.v-application .primary--text {
+    color: #fff !important;
+    caret-color: #fff !important;
 }

@@ -467,7 +467,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.display-1[data-v-2cf9c1ce] {\r\n    font-size: 12rem;\n}\n.display-2[data-v-2cf9c1ce] {\r\n    font-size: 6rem;\n}\n.subtitle-1[data-v-2cf9c1ce] {\r\n    font-size: 2rem;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.display-1[data-v-2cf9c1ce] {\n    font-size: 12rem;\n}\n.display-2[data-v-2cf9c1ce] {\n    font-size: 6rem;\n}\n.subtitle-1[data-v-2cf9c1ce] {\n    font-size: 2rem;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1030,7 +1030,7 @@ var render = function () {
             "v-col",
             { attrs: { cols: "12" } },
             [
-              _c("v-btn", { attrs: { color: "primary", dark: "", to: "/" } }, [
+              _c("v-btn", { attrs: { color: "green", dark: "", to: "/" } }, [
                 _vm._v("Volver al inicio"),
               ]),
             ],
